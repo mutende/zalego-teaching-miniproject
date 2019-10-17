@@ -1,5 +1,5 @@
 <?php 
- require_once('conn.php');
+ include('conn.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -111,9 +111,7 @@
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-          <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-          </li>
+          
         </ul>
       </div>
     </nav>
@@ -144,11 +142,11 @@
         <li class="divider"></li>
         <li><a href="courses.php"><i class="fa fa-users"></i> <span>Courses</span></a></li>
         <li class="divider"></li>
-        <li><a href="user.php"><i class="fa fa-user"></i> <span>Users</span></a></li>
+        <li><a href="students.php"><i class="fa fa-user"></i> <span>Students</span></a></li>
         <li class="divider"></li>
         <li><a href="applications.php"><i class="fa fa-fw fa-comments"></i> <span>Applications</span></a></li>
         <li class="divider"></li>
-        <li><a href="help.php"><i class="fa fa-question-circle"></i> <span>Help</span></a></li>
+        <li><a href="#"><i class="fa fa-question-circle"></i> <span>Help</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->
