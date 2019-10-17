@@ -1,6 +1,6 @@
 <?php
  include "header.php";
- //dashboard details count
+ //dashboard details count rows
  //students
  $sql = "SELECT count(`student`.`studentId`) AS students,`student`.`timeRegistered`,`student`.`fullName`,`student`.`regNo`,`student`.`phoneNo` FROM `student` ORDER BY `student`.`studentId` DESC
 ";
@@ -80,6 +80,7 @@ $sql1 = "SELECT count(`course`.`courseId`) AS courses FROM `course`";
           </body>
         </div>
     </section>
+    <!--end sect-->
   <?php
  include "footer.php";
 ?>
