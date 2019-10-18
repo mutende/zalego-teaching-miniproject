@@ -1,5 +1,9 @@
-<?php 
+<?php
  require_once('conn.php');
+ session_start();
+ if($_SESSION['user_name'] == ""){
+   header("Location: login.php");
+ }
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,7 +27,7 @@
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
   <!--select-->
-  <link rel="stylesheet" href="bower_components/select2/dist/css/select2.min.css"> 
+  <link rel="stylesheet" href="bower_components/select2/dist/css/select2.min.css">
   <!--Data tables-->
 <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
 
@@ -80,12 +84,14 @@
 
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-                    
+
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="dist/img/face-0.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">user->name</span>
+              <span class="hidden-xs">
+                <?php echo $_SESSION['user_name']; ?>
+              </span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -93,7 +99,7 @@
                 <img src="dist/img/face-0.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  User->name 
+                    <?php echo $_SESSION['user_name']; ?>
                   <small>Member since {time}</small>
                 </p>
               </li>
@@ -131,11 +137,11 @@
           <img src="dist/img/face-0.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>user->name</p>
+          <p>  <?php echo $_SESSION['user_name']; ?></p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
-     
+
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
@@ -201,7 +207,7 @@
 </script>
 <script>
 function myFunction() {
-  // Declare variables 
+  // Declare variables
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
@@ -218,7 +224,7 @@ function myFunction() {
       } else {
         tr[i].style.display = "none";
       }
-    } 
+    }
   }
 }
 </script>
