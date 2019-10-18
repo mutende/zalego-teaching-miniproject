@@ -1,6 +1,6 @@
 <?php
  include "header.php";
- //view courses applied
+ //view courses applied.
     $sql = "SELECT `student`.`studentId`,`student`.`timeRegistered`,`student`.`fullName`,`student`.`regNo`,`student`.`phoneNo` FROM `student` ORDER BY `student`.`studentId` DESC
 ";
     $query = mysqli_query($conn, $sql) or die("Error while processing");

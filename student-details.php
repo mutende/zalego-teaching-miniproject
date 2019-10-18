@@ -1,6 +1,6 @@
 <?php
  include "header.php";
- //view courses applied
+ //view courses applied.
    $id = $_GET['id'];
     $sql = "SELECT `student`.`studentId`,`student`.`email`,`student`.`timeRegistered`,`student`.`fullName`,`student`.`regNo`,`student`.`phoneNo` FROM `student` WHERE `student`.`studentId`='$id' ORDER BY `student`.`studentId` DESC
 ";

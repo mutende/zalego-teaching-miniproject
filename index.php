@@ -1,7 +1,7 @@
 <?php
  include "header.php";
  //dashboard details count rows
- //students
+ //students c
  $sql = "SELECT count(`student`.`studentId`) AS students,`student`.`timeRegistered`,`student`.`fullName`,`student`.`regNo`,`student`.`phoneNo` FROM `student` ORDER BY `student`.`studentId` DESC
 ";
     $query = mysqli_query($conn, $sql) or die("Error while processing");
