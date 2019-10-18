@@ -4,6 +4,8 @@ session_start();
 /* User login process, checks if user exists and password is correct */
 error_reporting(0);
 // Escape email to protect against SQL injections
+if(isset($_POST['submit'])){
+
 $email = $_POST['email'];
 $result = $conn->query("SELECT * FROM user WHERE email='$email'");
 
@@ -28,8 +30,9 @@ else { // User exists
     }
     else {
         $_SESSION['message'] = "Check your credentials again!";
-        //header("location: error.php");
+       ;
     }
+}
 }
 ?>
 
@@ -65,11 +68,10 @@ else { // User exists
   <div class="login-box-body">
     <p class="login-box-msg">Sign in</p>
     <?php
-    if( isset($_SESSION['message']) AND !empty($_SESSION['message']) ):
+    if( $_SESSION['message'] != null){
        echo $_SESSION['message'];
-    else:
-       header( "location: register.php" );
-    endif;
+       $_SESSION['message'] = null;
+    }
     ?>
     <form action="login.php" method="post">
       <div class="form-group has-feedback">

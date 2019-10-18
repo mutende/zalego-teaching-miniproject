@@ -1,41 +1,34 @@
 <?php
 include_once("conn.php");
 session_start();
-/* Registration process, inserts user info into the database
 
- */
 if(isset($_POST['submit'])){
-// // Set session variables to be used on profile.php page
- $_SESSION['email'] = $_POST['email'];
- $_SESSION['user_name'] = $_POST['username'];
-
-
-// Escape all $_POST variables to protect against SQL injections
 $user_name = $_POST['username'];
 $email = $_POST['email'];
-$password = password_hash($_POST['password'], PASSWORD_BCRYPT);
-// $hash = $mysqli->escape_string( md5( rand(0,1000) ) );
+$password = $_POST['password'];
 
-// Check if user with that email already exists
-$result = $conn->query("SELECT * FROM user WHERE email='$email'") or die($conn->error());
+$hash = password_hash($password, PASSWORD_DEFAULT);
+$query = "SELECT * FROM user WHERE email='$email'";
+$execute = mysqli_query($conn, $query);
+if($execute){
+  $rows = mysqli_num_rows($execute);
+if($rows > 0){
+  $_SESSION['message'] = 'User with this email already exists!';
+}else{
+  $insert = "INSERT INTO `user` (email,userName, type, password) VALUES ('$email','$user_name','admin','$hash')";
+  $run = mysqli_query($conn, $insert);
+  if($run){
+    header('location: login.php?registration successful');
+  }else{
+    echo mysqli_error($conn);
+  }
 
-// We know user email exists if the rows returned are more than 0
-if ( $result->num_rows > 0 ) {
-
-    $_SESSION['message'] = 'User with this email already exists!';
-
-
-}
-else { // Email doesn't already exist in a database, proceed...
-
-
-    $sql = $conn->query("INSERT INTO `user` (email,userName, password) VALUES ('$email','$user_name','$password')")or die($conn->error());
-
-            header("location: login.php");
-
-}
 
 }
+}
+
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -69,11 +62,10 @@ else { // Email doesn't already exist in a database, proceed...
     <p class="login-box-msg">Register a new member</p>
     <p>
     <?php
-    if( isset($_SESSION['message']) AND !empty($_SESSION['message']) ):
+    if($_SESSION['message'] != null ){
        echo $_SESSION['message'];
-    else:
-       header( "location: register.php" );
-    endif;
+       $_SESSION['message'] = null;
+    }
     ?>
     </p>
     <form action="register.php" method="post">
