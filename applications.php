@@ -1,9 +1,22 @@
 <?php
  include "header.php";
- //view courses applied
+ //view courses applied.
     $sql = "SELECT `courseapplied`.`appliedId`,`courseapplied`.`timeApplied`,`courseapplied`.`status`,`course`.`courseName`,`course`.`courseDuration`,`course`.`courseFee`,`student`.`fullName`,`student`.`regNo`,`student`.`phoneNo` FROM `courseapplied`,`student`,`course` WHERE `student`.`studentId`=`courseapplied`.`studentId` AND `course`.`courseId`=`courseapplied`.`courseId` ORDER BY `courseapplied`.`appliedId` DESC
 ";
     $query = mysqli_query($conn, $sql) or die("Error while processing");
+    //delete application
+    if(isset($_GET['id']))
+    {
+      $sid = $_GET['id'];
+      $sql1 = "DELETE FROM courseapplied WHERE appliedId='$sid'";
+      $query1 = mysqli_query($conn,$sql1) or die("Error while processing!");
+      if($query1)
+      {
+      echo '<script type="text/javascript">
+           window.location = "applications.php?msg=Cancelled Successfully"
+      </script>';
+      }
+    }
 ?>
 <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -22,9 +35,18 @@
       <!-- Default box -->
       <div class="box">
         <div class="box-header with-border">
-          <h3 class="box-title">Applications</h3>
+          <h3 class="box-title">Course Applications</h3>
           </div>
           <div class="box-body table-responsive">
+          <?php if(isset($_GET['msg']))
+          {
+            $msg = $_GET['msg'];
+            echo '<div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <p>'.$msg.'</p>
+                </div>';
+          }
+          ?>
             <table class="table table-hover table-bordered table-striped no-padding" id="myTable">
                 <thead><tr>
                   <th>ID</th>
@@ -46,8 +68,9 @@
                   <td><?php echo $row_applic['timeApplied']?></td>
                   <td><?php echo $row_applic['status'];?></td>
                   <td> 
-                  <input type="hidden" name="cuid" value=">">
-                  <button type="submit" name="rej" class="btn btn-success">View</button>
+                  <a href="application-details.php?id=<?php echo $row_applic['appliedId'];?>"><button type="submit" name="view" class="btn btn-success">View</button></a>
+                  <a href="application-edit.php?id=<?php echo $row_applic['appliedId'];?>"><button type="submit" name="edit" class="btn btn-warning">Edit</button> </a>
+                  <a href="applications.php?id=<?php echo $row_applic['appliedId'];?>"><button type="submit" onclick="return confirm('Cancel Application?')" name="edit" class="btn btn-danger">Cancel</button> </a>
                  </td>
                 </tr>
                <?php } ?>

@@ -9,8 +9,8 @@ session_start();
         <small></small>
       </h1>
       <ol class="breadcrumb">
-        <li class="active"><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
-        
+        <li><a href="index.php"><span class="glyphicon glyphicon-dashboard"></span> Home</a></li>
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-folder-close"></span> Courses</a></li>
       </ol>
     </section>
 
@@ -43,15 +43,15 @@ session_start();
                             <div class="box-body">
                               <div class="form-group">
                                 <label for="courseName">Name of Course</label>
-                                <input type="text" class="form-control" id="courseName" name="name" placeholder="Name of Course">
+                                <input type="text" class="form-control" id="courseName" name="name" placeholder="Name of Course" required>
                               </div>
                               <div class="form-group">
                                 <label for="courseDuration">Course Duration</label>
-                                <input type="number" class="form-control" name="duration" id="courseDuration" placeholder="Duration in Months">
+                                <input type="number" class="form-control" name="duration" id="courseDuration" placeholder="Duration in Months" required>
                               </div>
                               <div class="form-group">
                                 <label for="courseFee">Course Fee</label>
-                                <input type="number" class="form-control" id="courseFee" name="fee" placeholder="Ksh.">
+                                <input type="number" class="form-control" id="courseFee" name="fee" placeholder="Ksh." required>
                               </div>                            
                               
                             </div>

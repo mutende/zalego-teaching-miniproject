@@ -1,0 +1,351 @@
+[18-Oct-2019 20:11:07 Africa/Nairobi] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'mutende'@'localhost' (using password: YES) in /home/mczzgjvr/public_html/novtrain/conn.php on line 2
+[18-Oct-2019 20:11:07 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 20:11:07 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 20:11:07 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 20:11:07 Africa/Nairobi] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/mczzgjvr/public_html/novtrain/index.php on line 7
+[18-Oct-2019 20:11:08 Africa/Nairobi] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'mutende'@'localhost' (using password: YES) in /home/mczzgjvr/public_html/novtrain/conn.php on line 2
+[18-Oct-2019 20:11:31 Africa/Nairobi] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'mutende'@'localhost' (using password: YES) in /home/mczzgjvr/public_html/novtrain/conn.php on line 2
+[18-Oct-2019 20:11:50 Africa/Nairobi] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'mutende'@'localhost' (using password: YES) in /home/mczzgjvr/public_html/novtrain/conn.php on line 2
+[18-Oct-2019 20:11:50 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:23:06 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:23:19 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:29:30 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:33:54 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:33:56 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:36:04 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:36:17 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:36:58 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:36:59 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:37:08 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:37:42 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:55:58 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 20:55:58 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 20:55:58 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 20:56:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 20:56:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 20:56:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 20:56:25 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 20:56:25 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 20:56:25 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 20:56:26 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 20:56:26 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 20:56:26 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 20:56:36 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:56:40 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 20:57:38 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 21:00:07 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 21:00:53 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 21:01:47 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 21:01:56 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 21:02:26 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 21:02:26 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 21:02:26 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 21:02:34 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 21:02:50 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 21:03:02 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 21:03:16 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 21:03:22 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[18-Oct-2019 21:03:22 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[18-Oct-2019 21:03:28 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 21:07:58 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[18-Oct-2019 21:07:59 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[18-Oct-2019 22:09:57 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 22:09:57 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 22:09:57 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 22:10:09 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 22:11:46 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 22:12:24 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[18-Oct-2019 22:12:24 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[18-Oct-2019 22:13:53 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[18-Oct-2019 22:13:53 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[18-Oct-2019 22:14:59 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 22:14:59 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 22:14:59 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 22:15:20 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 22:15:55 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 22:19:49 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 22:19:49 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 22:19:49 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 22:20:56 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[18-Oct-2019 22:20:56 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[18-Oct-2019 22:21:37 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[18-Oct-2019 22:21:37 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[18-Oct-2019 22:21:59 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[18-Oct-2019 22:21:59 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[18-Oct-2019 22:23:44 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 22:23:44 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 22:23:44 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 22:25:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 22:25:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 22:25:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 22:25:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 22:25:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 22:25:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[18-Oct-2019 22:25:04 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[18-Oct-2019 22:25:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[18-Oct-2019 22:25:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[18-Oct-2019 22:25:04 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[19-Oct-2019 08:15:21 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[19-Oct-2019 08:15:21 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[19-Oct-2019 08:15:21 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[19-Oct-2019 09:00:18 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[19-Oct-2019 09:00:18 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[19-Oct-2019 09:00:18 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[19-Oct-2019 09:00:24 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[19-Oct-2019 09:00:24 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[19-Oct-2019 09:00:24 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[19-Oct-2019 09:55:27 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[19-Oct-2019 09:55:27 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[19-Oct-2019 09:55:27 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[19-Oct-2019 09:55:32 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[19-Oct-2019 09:55:32 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[19-Oct-2019 09:55:32 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[19-Oct-2019 14:25:08 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[19-Oct-2019 14:25:08 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[19-Oct-2019 14:25:08 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[19-Oct-2019 14:25:08 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[19-Oct-2019 14:25:14 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[20-Oct-2019 10:39:21 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[20-Oct-2019 10:39:21 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[20-Oct-2019 10:39:21 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[20-Oct-2019 10:42:10 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 10:42:10 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[20-Oct-2019 10:42:10 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[20-Oct-2019 10:42:10 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[20-Oct-2019 10:42:10 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 10:42:23 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 10:42:23 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 10:42:30 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 10:42:30 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 10:44:03 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 10:44:03 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 10:45:29 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 10:45:29 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 10:50:22 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 10:50:22 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 10:50:44 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 10:50:44 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 11:05:00 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 11:05:00 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 12:14:37 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 12:14:37 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[20-Oct-2019 12:14:37 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[20-Oct-2019 12:14:37 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[20-Oct-2019 12:14:37 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 12:26:58 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[20-Oct-2019 12:26:58 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[20-Oct-2019 12:26:58 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[20-Oct-2019 12:30:19 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 12:30:19 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 12:30:27 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 12:30:27 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[20-Oct-2019 12:51:45 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[20-Oct-2019 12:51:45 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 05:09:39 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 05:09:39 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 05:09:39 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 08:48:14 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 08:48:14 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 08:48:14 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 08:48:28 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 08:48:28 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 08:48:45 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 08:48:45 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:24:29 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 11:24:29 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 11:24:29 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 11:24:31 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 11:24:31 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 11:24:31 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 11:25:20 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 11:25:25 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 11:25:25 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 11:25:25 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 11:25:56 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 11:25:56 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 11:25:56 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 11:26:43 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:26:43 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:26:46 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 11:26:46 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 11:26:46 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 11:31:58 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:31:58 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:32:13 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:32:13 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:32:50 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 11:32:50 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 11:32:50 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 11:33:40 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:33:40 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:34:11 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:34:11 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:35:27 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 11:35:27 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 11:35:27 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 11:35:39 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 11:35:41 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:35:41 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:35:44 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 11:35:50 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 11:36:17 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 11:37:00 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:37:00 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:37:11 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:37:11 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:37:46 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:37:46 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:38:05 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:38:05 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:38:18 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:38:18 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:40:15 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 11:40:15 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 11:40:15 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 11:40:34 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:40:34 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:41:30 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:41:30 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:42:20 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 11:42:43 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:42:43 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:43:09 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:43:09 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:45:23 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 11:45:23 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 11:51:53 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 11:52:23 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 11:53:57 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 11:59:50 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 11:59:50 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 11:59:50 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 11:59:57 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 12:05:40 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 12:05:40 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 12:08:44 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 12:08:44 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 12:08:44 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 12:19:30 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 12:19:30 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 12:35:36 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 13:08:45 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 13:08:45 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 13:08:45 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 13:08:49 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 13:09:09 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[21-Oct-2019 13:09:44 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 13:09:44 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 13:10:49 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[21-Oct-2019 13:10:49 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[21-Oct-2019 20:22:34 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 20:22:34 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 20:22:34 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 20:22:49 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 20:22:49 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 20:22:49 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 20:23:30 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 20:23:30 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 20:23:30 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 20:25:38 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 20:25:38 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 20:25:38 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[21-Oct-2019 22:04:15 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[21-Oct-2019 22:04:15 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[21-Oct-2019 22:04:15 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[22-Oct-2019 10:20:59 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[22-Oct-2019 10:20:59 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[22-Oct-2019 10:20:59 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[22-Oct-2019 11:18:11 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[22-Oct-2019 11:18:11 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[22-Oct-2019 11:18:11 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[22-Oct-2019 11:18:47 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 11:18:47 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 12:00:34 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[22-Oct-2019 12:00:34 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[22-Oct-2019 12:00:34 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[22-Oct-2019 12:56:37 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[22-Oct-2019 12:56:37 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[22-Oct-2019 12:56:37 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[22-Oct-2019 13:34:41 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[22-Oct-2019 13:34:41 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[22-Oct-2019 13:34:41 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[22-Oct-2019 13:34:45 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[22-Oct-2019 13:35:05 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 65
+[22-Oct-2019 14:05:48 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 94
+[22-Oct-2019 14:05:48 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 103
+[22-Oct-2019 14:05:48 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 139
+[22-Oct-2019 14:54:33 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 14:54:33 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 14:54:56 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 14:54:56 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 14:57:09 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 14:57:09 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 14:58:45 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 14:58:45 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 14:59:33 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 14:59:33 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 15:00:08 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 15:00:08 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 15:00:53 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 15:00:53 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 15:02:01 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 15:02:01 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 15:03:27 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 15:03:27 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 15:05:32 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 15:05:32 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 15:06:06 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[22-Oct-2019 15:06:06 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[22-Oct-2019 15:11:36 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 91
+[22-Oct-2019 15:11:36 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 100
+[22-Oct-2019 15:11:36 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 126
+[22-Oct-2019 15:11:52 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 91
+[22-Oct-2019 15:11:52 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 100
+[22-Oct-2019 15:11:52 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 126
+[22-Oct-2019 17:42:14 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 91
+[22-Oct-2019 17:42:14 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 100
+[22-Oct-2019 17:42:14 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 126
+[23-Oct-2019 11:22:56 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 91
+[23-Oct-2019 11:22:56 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 100
+[23-Oct-2019 11:22:56 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 126
+[23-Oct-2019 11:30:11 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 91
+[23-Oct-2019 11:30:11 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 100
+[23-Oct-2019 11:30:11 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 126
+[23-Oct-2019 11:30:20 Africa/Nairobi] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/mczzgjvr/public_html/novtrain/register.php on line 24
+[23-Oct-2019 11:30:37 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 68
+[23-Oct-2019 11:30:53 Africa/Nairobi] PHP Notice:  Undefined index: message in /home/mczzgjvr/public_html/novtrain/register.php on line 68
+[23-Oct-2019 11:32:33 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[23-Oct-2019 11:32:33 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[23-Oct-2019 11:33:22 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[23-Oct-2019 11:33:22 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[23-Oct-2019 11:34:12 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[23-Oct-2019 11:34:12 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 91
+[23-Oct-2019 11:34:12 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 100
+[23-Oct-2019 11:34:12 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 126
+[23-Oct-2019 11:34:12 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[23-Oct-2019 11:39:54 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[23-Oct-2019 11:39:54 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 91
+[23-Oct-2019 11:39:54 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 100
+[23-Oct-2019 11:39:54 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 126
+[23-Oct-2019 11:39:54 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[23-Oct-2019 12:52:01 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/mczzgjvr/public_html/novtrain/application-edit.php on line 91
+[23-Oct-2019 12:52:04 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/mczzgjvr/public_html/novtrain/application-edit.php on line 91
+[23-Oct-2019 12:52:06 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/mczzgjvr/public_html/novtrain/application-edit.php on line 91
+[23-Oct-2019 12:52:47 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/mczzgjvr/public_html/novtrain/application-edit.php on line 91
+[23-Oct-2019 12:52:50 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/mczzgjvr/public_html/novtrain/application-edit.php on line 91
+[23-Oct-2019 12:58:22 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 91
+[23-Oct-2019 12:58:22 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 100
+[23-Oct-2019 12:58:22 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 126
+[23-Oct-2019 12:59:12 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[23-Oct-2019 12:59:12 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[23-Oct-2019 13:00:13 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[23-Oct-2019 13:00:13 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[23-Oct-2019 13:07:06 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[23-Oct-2019 13:07:06 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[23-Oct-2019 13:38:16 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[23-Oct-2019 13:38:16 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3
+[24-Oct-2019 09:49:05 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/header.php on line 4
+[24-Oct-2019 09:49:05 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 91
+[24-Oct-2019 09:49:05 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 100
+[24-Oct-2019 09:49:05 Africa/Nairobi] PHP Notice:  Undefined index: user_name in /home/mczzgjvr/public_html/novtrain/header.php on line 126
+[24-Oct-2019 09:49:05 Africa/Nairobi] PHP Notice:  A session had already been started - ignoring session_start() in /home/mczzgjvr/public_html/novtrain/manageCourses.php on line 3

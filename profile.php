@@ -1,11 +1,13 @@
 <?php
  include "header.php";
+
+ 
 ?>
 <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
           Profile
-          <small>Edit Details</small>
+          <small>My Profile</small>
         </h1>
         <ol class="breadcrumb">
           <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -89,25 +91,7 @@
                                             </div>
                                         </div>
                                         </div>
-                                         <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Password</label>
-                                                <input type="password" name="password" class="form-control" placeholder="Password" value="" >
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Confirm Password</label>
-                                                <input type="password" class="form-control" name="cpassword" placeholder="Confirm Password" >
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                  
-
-                                    <button type="submit" name="update" class="btn btn-info btn-fill pull-right">Update Profile</button>
-                                    <div class="clearfix"></div>
+                                        <div class="clearfix"></div>
                                 </form>
                             </div>
                         </div>

@@ -1,7 +1,8 @@
+
 <?php
  require_once('conn.php');
  session_start();
- if($_SESSION['user_name'] == ""){
+ if(!isset($_SESSION['user_name'])){
    header("Location: login.php");
  }
 ?>
@@ -75,11 +76,8 @@
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" >
+        Menu
       </a>
 
       <div class="navbar-custom-menu">
@@ -100,26 +98,14 @@
 
                 <p>
                     <?php echo $_SESSION['user_name']; ?>
-                  <small>Member since {time}</small>
+                  <!-- <small>Member since {time}</small> -->
                 </p>
               </li>
-              <!-- Menu Footer-->
-              <li class="user-footer">
-                <div class="pull-left">
-                  <a href="profile.php" class="btn btn-default btn-flat">Profile</a>
-                </div>
-                <div class="pull-right">
-                  <a class="btn btn-default btn-flat" href="logout.php">
-                                        Logout
-                                    </a>
-                                    </div>
-              </li>
+              
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-          <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-          </li>
+          
         </ul>
       </div>
     </nav>
@@ -146,15 +132,15 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MENU</li>
-        <li><a href="index.php"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+        <li><a href="index.php"><span class="glyphicon glyphicon-dashboard"></span> <span>Dashboard</span></a></li>
         <li class="divider"></li>
-        <li><a href="courses.php"><i class="fa fa-users"></i> <span>Courses</span></a></li>
+        <li><a href="courses.php"><span class="glyphicon glyphicon-folder-close"></span> <span>Courses</span></a></li>
         <li class="divider"></li>
-        <li><a href="user.php"><i class="fa fa-user"></i> <span>Users</span></a></li>
+        <li><a href="students.php"><span class="glyphicon glyphicon-user"></span> <span>Students</span></a></li>
         <li class="divider"></li>
-        <li><a href="applications.php"><i class="fa fa-fw fa-comments"></i> <span>Applications</span></a></li>
+        <li><a href="applications.php"><span class="glyphicon glyphicon-open-file"></span> <span>Applications</span></a></li>
         <li class="divider"></li>
-        <li><a href="help.php"><i class="fa fa-question-circle"></i> <span>Help</span></a></li>
+        <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> <span>Logout</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->

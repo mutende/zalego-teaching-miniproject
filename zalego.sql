@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 14, 2019 at 01:41 PM
+-- Generation Time: Oct 17, 2019 at 10:08 AM
 -- Server version: 10.1.39-MariaDB
 -- PHP Version: 7.3.5
 
@@ -36,6 +36,14 @@ CREATE TABLE `course` (
   `timeAdded` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `course`
+--
+
+INSERT INTO `course` (`courseId`, `courseName`, `courseDuration`, `courseFee`, `timeAdded`) VALUES
+(1, 'Android', 2, 40000.00, '2019-10-15 14:36:48'),
+(2, 'Web Development', 2, 35000.00, '2019-10-17 09:50:21');
+
 -- --------------------------------------------------------
 
 --
@@ -49,6 +57,14 @@ CREATE TABLE `courseapplied` (
   `timeApplied` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `status` tinyint(1) NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `courseapplied`
+--
+
+INSERT INTO `courseapplied` (`appliedId`, `courseId`, `studentId`, `timeApplied`, `status`) VALUES
+(1, 1, 2, '2019-10-15 14:37:18', 1),
+(2, 1, 3, '2019-10-17 08:59:17', 1);
 
 -- --------------------------------------------------------
 
@@ -64,6 +80,14 @@ CREATE TABLE `student` (
   `email` varchar(65) NOT NULL,
   `timeRegistered` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `student`
+--
+
+INSERT INTO `student` (`studentId`, `fullName`, `regNo`, `phoneNo`, `email`, `timeRegistered`) VALUES
+(2, 'Ngetich Kip', 'ZA001', '+254708058225', 'ngetich@zalego.com', '2019-10-17 08:58:44'),
+(3, 'Alvin Ndolo', 'ZA002', '+254788999003', 'andolo@zalego.com', '2019-10-17 08:58:44');
 
 -- --------------------------------------------------------
 
@@ -91,16 +115,26 @@ ALTER TABLE `course`
   ADD PRIMARY KEY (`courseId`);
 
 --
+-- Indexes for table `courseapplied`
+--
+ALTER TABLE `courseapplied`
+  ADD PRIMARY KEY (`appliedId`);
+
+--
 -- Indexes for table `student`
 --
 ALTER TABLE `student`
-  ADD PRIMARY KEY (`studentId`);
+  ADD PRIMARY KEY (`studentId`),
+  ADD UNIQUE KEY `regNo` (`regNo`),
+  ADD UNIQUE KEY `email` (`email`),
+  ADD UNIQUE KEY `phoneNo` (`phoneNo`);
 
 --
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
-  ADD PRIMARY KEY (`userId`);
+  ADD PRIMARY KEY (`userId`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -110,19 +144,25 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `course`
 --
 ALTER TABLE `course`
-  MODIFY `courseId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `courseId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `courseapplied`
+--
+ALTER TABLE `courseapplied`
+  MODIFY `appliedId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `student`
 --
 ALTER TABLE `student`
-  MODIFY `studentId` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `studentId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

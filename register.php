@@ -18,7 +18,10 @@ if($rows > 0){
   $insert = "INSERT INTO `user` (email,userName, type, password) VALUES ('$email','$user_name','admin','$hash')";
   $run = mysqli_query($conn, $insert);
   if($run){
-    header('location: login.php?registration successful');
+       $_SESSION['logged_in'] = true;
+     $_SESSION['email'] = $_POST['email'];
+        $_SESSION['user_name'] = $_POST['username'];
+    header('location: index.php');
   }else{
     echo mysqli_error($conn);
   }
