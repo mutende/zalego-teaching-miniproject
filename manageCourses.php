@@ -1,6 +1,5 @@
 <?php
 
-session_start();
 require_once('conn.php');
 // get students
 function getCauses($conn){
@@ -20,6 +19,7 @@ function getCauses($conn){
 
 
 function deleteCause($id, $conn){
+  session_start();
     $delete = "DELETE FROM course WHERE courseId ='$id'";
     if (mysqli_query($conn, $delete)) {
 	    $_SESSION["success"] = "Course deleted";
@@ -27,7 +27,7 @@ function deleteCause($id, $conn){
 	} else {
 
 		$_SESSION["error"] = "Unable to delete course";
-		header('location: courses.php');		
+		header('location: courses.php');
 	}
 
 	mysqli_close($conn);
@@ -35,6 +35,7 @@ function deleteCause($id, $conn){
 
 
 function updateCause($id,$name,$duration,$fee,$conn){
+  session_start();
     $update = "UPDATE course SET courseName='$name',courseDuration='$duration', courseFee='$fee' WHERE courseId='$id'";
 
     $execute = mysqli_query($conn, $update);
@@ -44,7 +45,7 @@ function updateCause($id,$name,$duration,$fee,$conn){
 	} else {
 
 		$_SESSION["error"] = "Unable to update course";
-		header('location: courses.php');		
+		header('location: courses.php');
 	}
 
 	mysqli_close($conn);

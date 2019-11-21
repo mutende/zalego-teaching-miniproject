@@ -47,7 +47,7 @@
                 </div>';
           }
           ?>
-            <table class="table table-hover table-bordered table-striped no-padding" id="myTable">
+            <table class="table table-hover table-bordered table-striped no-padding table-sm" id="myTable">
                 <thead><tr>
                   <th>ID</th>
                   <th>Course Name</th>
@@ -55,7 +55,7 @@
                   <th>Student Name</th>
                   <th>Phone No.</th>
                   <th>Time Applied</th>
-                  <th>Status</th>
+                  <th>Active</th>
                   <th>Action</th>
                 </tr>
                 </thead><?php while($row_applic = mysqli_fetch_assoc($query)) { ?>
@@ -63,11 +63,25 @@
                   <td><?php echo $row_applic['appliedId'];?></td>
                   <td><?php echo $row_applic['courseName'];?></td>
                   <td><?php echo $row_applic['regNo'];?></td>
-                  <td><?php echo $row_applic['phoneNo'];?></td>
                   <td><?php echo $row_applic['fullName']?></td>
+                  <td><?php echo $row_applic['phoneNo'];?></td>
                   <td><?php echo $row_applic['timeApplied']?></td>
-                  <td><?php echo $row_applic['status'];?></td>
-                  <td> 
+                  <td><?php
+                  $active = $row_applic['status'];
+                  if(  $active == True ){
+                    ?>
+                    <span class="text-success">Yes</span>
+                    <!-- <i class="fa fa-check" aria-hidden="true"></i> -->
+                    <?php
+                  }else{
+
+                    ?>
+                      <span class="text-danger">No</span>
+
+                    <?php
+                  }
+                  ?></td>
+                  <td>
                   <a href="application-details.php?id=<?php echo $row_applic['appliedId'];?>"><button type="submit" name="view" class="btn btn-success">View</button></a>
                   <a href="application-edit.php?id=<?php echo $row_applic['appliedId'];?>"><button type="submit" name="edit" class="btn btn-warning">Edit</button> </a>
                   <a href="applications.php?id=<?php echo $row_applic['appliedId'];?>"><button type="submit" onclick="return confirm('Cancel Application?')" name="edit" class="btn btn-danger">Cancel</button> </a>

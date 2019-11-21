@@ -64,12 +64,19 @@ if($rows > 0){
   <div class="register-box-body">
     <p class="login-box-msg">Register a new member</p>
     <p>
+
+
     <?php
-    if($_SESSION['message'] != null ){
-       echo $_SESSION['message'];
-       $_SESSION['message'] = null;
+
+    if(isset($_SESSION['message'])){
+        if($_SESSION['message'] != null ){
+           echo $_SESSION['message'];
+           $_SESSION['message'] = null;
+        }
+
+
     }
-    ?>
+  ?>
     </p>
     <form action="register.php" method="post">
       <div class="form-group has-feedback">

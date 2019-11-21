@@ -15,6 +15,12 @@ $sql1 = "SELECT count(`course`.`courseId`) AS courses FROM `course`";
 ";
     $query2 = mysqli_query($conn, $sql2) or die("Error while processing");
     $count_applics = mysqli_fetch_assoc($query2);
+
+
+    // campuses
+    $sql3 = "SELECT count(`campuses`.`id`) AS campuses FROM `campuses`";
+        $query3 = mysqli_query($conn, $sql3) or die("Error while processing");
+        $count_campuses = mysqli_fetch_assoc($query3);
 ?>
 <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -24,7 +30,7 @@ $sql1 = "SELECT count(`course`.`courseId`) AS courses FROM `course`";
       </h1>
       <ol class="breadcrumb">
         <li class="active"><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-        
+
       </ol>
     </section>
 
@@ -76,6 +82,22 @@ $sql1 = "SELECT count(`course`.`courseId`) AS courses FROM `course`";
           </div>
           <!--infobox-->
         </div>
+
+        <!-- campuses -->
+        <div class="col-md-4">
+          <!--infobox-->
+              <div class="info-box">
+                <span class="info-box-icon bg-red"><span class="glyphicon glyphicon-open-file"></span></span>
+
+                <div class="info-box-content">
+                <span class="info-box-text">Campuses</span>
+              <span class="info-box-number"><?php echo $count_campuses['campuses'];?></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!--infobox-->
+        </div>
+        <!-- end campuses -->
           </div>
           </body>
         </div>

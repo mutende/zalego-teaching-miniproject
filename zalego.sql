@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.8.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 17, 2019 at 10:08 AM
--- Server version: 10.1.39-MariaDB
--- PHP Version: 7.3.5
+-- Generation Time: Nov 21, 2019 at 01:11 PM
+-- Server version: 10.1.34-MariaDB
+-- PHP Version: 7.2.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,6 +21,26 @@ SET time_zone = "+00:00";
 --
 -- Database: `zalego`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `campuses`
+--
+
+CREATE TABLE `campuses` (
+  `id` int(11) NOT NULL,
+  `campus` varchar(255) NOT NULL,
+  `location` varchar(255) NOT NULL,
+  `courses` varchar(500) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `campuses`
+--
+
+INSERT INTO `campuses` (`id`, `campus`, `location`, `courses`) VALUES
+(1, 'JKUAT', 'Juja', '2');
 
 -- --------------------------------------------------------
 
@@ -41,8 +61,8 @@ CREATE TABLE `course` (
 --
 
 INSERT INTO `course` (`courseId`, `courseName`, `courseDuration`, `courseFee`, `timeAdded`) VALUES
-(1, 'Android', 2, 40000.00, '2019-10-15 14:36:48'),
-(2, 'Web Development', 2, 35000.00, '2019-10-17 09:50:21');
+(1, 'Web Development', 3, 45000.00, '2019-11-20 16:38:51'),
+(2, 'Python', 4, 50000.00, '2019-11-20 16:39:29');
 
 -- --------------------------------------------------------
 
@@ -65,6 +85,27 @@ CREATE TABLE `courseapplied` (
 INSERT INTO `courseapplied` (`appliedId`, `courseId`, `studentId`, `timeApplied`, `status`) VALUES
 (1, 1, 2, '2019-10-15 14:37:18', 1),
 (2, 1, 3, '2019-10-17 08:59:17', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `resetpassword`
+--
+
+CREATE TABLE `resetpassword` (
+  `id` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `selector` varchar(255) NOT NULL,
+  `token` varchar(1500) NOT NULL,
+  `expires` varchar(1500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `resetpassword`
+--
+
+INSERT INTO `resetpassword` (`id`, `email`, `selector`, `token`, `expires`) VALUES
+(1, 'elvis@gmail.com', 'f2434ee5adad6b61', '$2y$10$qHJ1HI90UPecV9afqnW9C.DPwEqHJbDV5p7w7Z9kz90FlY4i8rI8K', '1574277306');
 
 -- --------------------------------------------------------
 
@@ -105,8 +146,21 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`userId`, `email`, `userName`, `type`, `password`, `status`) VALUES
+(1, 'elvis@gmail.com', 'elvis', 'admin', '$2y$10$lOkL1g9z/E57RnkAf98Wm.YrUUaYXjTQvzRGoDlCHa0nT0jYgacWC', 1);
+
+--
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `campuses`
+--
+ALTER TABLE `campuses`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `course`
@@ -119,6 +173,12 @@ ALTER TABLE `course`
 --
 ALTER TABLE `courseapplied`
   ADD PRIMARY KEY (`appliedId`);
+
+--
+-- Indexes for table `resetpassword`
+--
+ALTER TABLE `resetpassword`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `student`
@@ -141,16 +201,28 @@ ALTER TABLE `user`
 --
 
 --
+-- AUTO_INCREMENT for table `campuses`
+--
+ALTER TABLE `campuses`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `course`
 --
 ALTER TABLE `course`
-  MODIFY `courseId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `courseId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `courseapplied`
 --
 ALTER TABLE `courseapplied`
   MODIFY `appliedId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `resetpassword`
+--
+ALTER TABLE `resetpassword`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `student`
@@ -162,7 +234,7 @@ ALTER TABLE `student`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -101,11 +101,11 @@
                   <!-- <small>Member since {time}</small> -->
                 </p>
               </li>
-              
+
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-          
+
         </ul>
       </div>
     </nav>
@@ -139,6 +139,8 @@
         <li><a href="students.php"><span class="glyphicon glyphicon-user"></span> <span>Students</span></a></li>
         <li class="divider"></li>
         <li><a href="applications.php"><span class="glyphicon glyphicon-open-file"></span> <span>Applications</span></a></li>
+        <li class="divider"></li>
+        <li><a href="campuses.php"><span class="glyphicon glyphicon-open-file"></span> <span>Campuses</span></a></li>
         <li class="divider"></li>
         <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> <span>Logout</span></a></li>
       </ul>

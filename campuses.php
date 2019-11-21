@@ -2,16 +2,19 @@
 
 // session_start();
  include "header.php";
+ require_once('conn.php');
+ require('manageCourses.php');
+ require('manageCampuses.php');
 ?>
 <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        courses
+        Campuses
         <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="index.php"><span class="glyphicon glyphicon-dashboard"></span> Home</a></li>
-        <li class="active"><a href="#"><span class="glyphicon glyphicon-folder-close"></span> Courses</a></li>
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-folder-close"></span> Campuses</a></li>
       </ol>
     </section>
 
@@ -25,7 +28,7 @@
                 <div class="col-md-4 ml-auto">
                   <!-- Button trigger modal -->
                   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                   Add course
+                   Add campus
                   </button>
 
                   <!-- Modal -->
@@ -33,33 +36,57 @@
                     <div class="modal-dialog modal-dialog-centered" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLongTitle">Add Course Form</h5>
+                          <h5 class="modal-title" id="exampleModalLongTitle">Add Campuses</h5>
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
                         <div class="modal-body">
                                          <!-- form start -->
-                          <form role="form" method="post" action="addCourse.php">
+                          <form role="form" method="post" action="manageCampuses.php">
                             <div class="box-body">
                               <div class="form-group">
-                                <label for="courseName">Name of Course</label>
-                                <input type="text" class="form-control" id="courseName" name="name" placeholder="Name of Course" required>
+                                <label for="campusName">Campus Name</label>
+                                <input type="text" class="form-control" id="campusName" name="cname" placeholder="Campus Name" required>
                               </div>
                               <div class="form-group">
-                                <label for="courseDuration">Course Duration</label>
-                                <input type="number" class="form-control" name="duration" id="courseDuration" placeholder="Duration in Months" required>
+                                <label for="location">Location</label>
+                                <input type="text" class="form-control" name="location" id="location" placeholder="Campus Location" required>
                               </div>
-                              <div class="form-group">
-                                <label for="courseFee">Course Fee</label>
-                                <input type="number" class="form-control" id="courseFee" name="fee" placeholder="Ksh." required>
-                              </div>
+                              <!-- courses-->
+                               <div class="form-group">
+                                 <label for="courses">Courses</label>
+                                 <select class="form-control" id="courses" name="courses">
+
+                                   <?php
+
+                                   $courses=array();
+                                   $courses = getCauses($conn);
+                                   $countCourses = count($courses);
+
+                                    if( $countCourses == 0){
+                                      ?>
+                                       <option value="0">--None--</option>
+                                      <?php
+                                    }else{
+                                      foreach($courses as $course)
+                                      {
+                                      ?>
+                                         <option value="<?php echo $course['courseId'];?>"><?php echo $course['courseName'];?></option>
+                                      <?php
+                                    }
+                                  }
+                                    ?>
+
+
+                                 </select>
+                               </div>
 
                             </div>
                             <!-- /.box-body -->
 
                             <div class="box-footer">
-                              <button type="submit" class="btn btn-primary" name="addcourse">Add Course</button>
+                              <button type="submit" class="btn btn-primary" name="addcampus">Add Campus</button>
                             </div>
                           </form>
                         </div>
@@ -114,69 +141,100 @@
               <!-- course manipulation -->
               <div class="col-md-8">
             <?php
-            require_once('conn.php');
-            require('manageCourses.php');
-            $courses=array();
-            $courses = getCauses($conn);
-            $countCourses = count($courses);
+
+            $campuses=array();
+            $campuses = getCampuses($conn);
+            $countCampuses = count($campuses);
 
 
-            if($countCourses > 0){
+            if($countCampuses > 0){
 
             ?>
-          <h3 class="text-center">Available Courses</h3>
+          <h3 class="text-center">Available Campuses</h3>
           <table class="table table-sm table-hover">
             <thead class="thead-dark">
               <th>#</th>
-              <th>Course Name</th>
-              <th>Course Duration</th>
-              <th>Course Fee</th>
+              <th>Campus Name</th>
+              <th>Campus Location</th>
+              <th>Couse Offered</th>
               <th>Action</th>
             </thead>
             <tbody>
             <?php
 
-          foreach($courses as $course)
+          foreach($campuses as $campus)
           {
         ?>
          <tr>
-            <td><?php echo $course['courseId'];?></td>
-            <td><?php echo $course['courseName'];?></td>
-            <td><?php echo $course['courseDuration'].' month(s)';?></td>
-            <td><?php echo $course['courseFee'];?></td>
+            <td><?php echo $campus['id'];?></td>
+            <td><?php echo $campus['campus'];?></td>
+            <td><?php echo $campus['location'];?></td>
+            <td><?php echo getCourseWithId($campus['courses'],$conn);?></td>
 
             <td>
-              <a class="btn btn-sm btn-success" data-toggle="modal" data-target="#<?php echo $course['courseId'];?>">Update</a>
-              <a href="manageCourses.php?id=<?php echo $course['courseId'];?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this record ??')">Delete</a></td>
+              <a class="btn btn-sm btn-success" data-toggle="modal" data-target="#<?php echo $campus['id'];?>">Update</a>
+              <a href="manageCampuses.php?campus_id=<?php echo $campus['id'];?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this record ??')">Delete</a></td>
 
                <!-- update modal -->
-    <div class="modal fade" id="<?php echo $course['courseId'];?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="<?php echo $campus['id'];?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Update Course</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">Update Campus</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-              <form action="manageCourses.php" method="POST">
+              <form action="manageCampuses.php" method="POST">
                 <div class="form-group">
                   <label for="cid">Id</label>
-                  <input type="text" class="form-control" id="cid" name="cid" readonly value="<?php echo $course['courseId'];?>">
+                  <input type="text" class="form-control" id="cid" name="campus_id" readonly value="<?php echo $campus['id'];?>">
                 </div>
                 <div class="form-group">
-                  <label for="Coursename">Course Name</label>
-                  <input type="text" class="form-control" id="Coursename" name="name" value="<?php echo $course['courseName'];?>">
+                  <label for="campusName">Course Name</label>
+                  <input type="text" class="form-control" id="campusName" name="campus_name" value="<?php echo $campus['campus'];?>">
                 </div>
                 <div class="form-group">
                   <label for="duration">Course Duration</label>
-                  <input type="text" class="form-control" id="duration" name="duration" value="<?php echo $course['courseDuration'];?>">
+                  <input type="text" class="form-control" id="duration" name="campus_location" value="<?php echo $campus['location'];?>">
                 </div>
+
+
+
+
                 <div class="form-group">
-                  <label for="courseFee">Course Fee</label>
-                  <input type="text" class="form-control" id="courseFee"  name="fee" value="<?php echo $course['courseFee'];?>">
+                  <label for="courses">Courses</label>
+                  <select class="form-control" id="courses" name="courses">
+
+                    <?php
+
+                    $courses2=array();
+                    $course2= getCauses($conn);
+                    $countCourses2 = count($course2);
+
+                     if( $countCourses2 == 0){
+                       ?>
+                         <option value="0"><?php echo '--None--';?></option>
+
+                       <?php
+                     }else{
+                       ?>
+                         <option value="<?php echo $campus['courses']?>"><?php echo getCourseWithId($campus['courses'],$conn);?></option>
+                         <?php
+                       foreach($course2 as $course)
+                       {
+                       ?>
+                          <option value="<?php echo $course['courseId'];?>"><?php echo $course['courseName'];?></option>
+                       <?php
+                     }
+                   }
+                     ?>
+
+
+                  </select>
                 </div>
+
                 <button type="submit" class="btn btn-default" name="updateCourse">Update</button>
               </form>
 
@@ -191,9 +249,10 @@
           </table>
         <?php }else{
 
-
           ?>
-          <h1 class="text-warning text-center">No Courses Set</h1>
+
+        <h1 class="text-warning text-center">No Campuses Set</h1>
+
           <?php
         }
 
