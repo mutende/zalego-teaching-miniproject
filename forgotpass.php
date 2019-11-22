@@ -36,8 +36,8 @@ if(isset($_POST['sendLink'])){
               If you did not send the request just ignore the email</p>';
   $message .= '<p>Click <a href="'.$url.'">here</a> to reset your password</p>';
 
-  $headers = "From: Zalego <info.zalego.com>\r\n";
-  $headers .= "Reply-To: info@zalego.com\r\n";
+  $headers = "From: Zalego <info@theopportunity.co.ke>\r\n";
+  $headers .= "Reply-To: info@theopportunity.co.ke\r\n";
   $headers .="Content-type: text/html\r\n";
 
   if(mail($to,$subject,$message,$headers)){
