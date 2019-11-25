@@ -8,13 +8,13 @@ if(isset($_POST['resetPassword'])){
 
   if($pass1 != $pass){
       $_SESSION['error'] = "Password Do not match";
-      header("Location: create_password.php?selector="$selector."&validator=".$validator);
+      header("Location: create_password.php?selector=".$selector."&validator=".$validator);
       exit();
   }else{
     $currentDate = date("U");
     include_once("conn.php");
     // get tokens
-    $query = "SELECT * FROM resetpassword WHERE `selector` = $selector AND `expires` >= $currentDate";
+    $query = "SELECT * FROM resetpassword WHERE `selector` = '$selector' AND `expires` >= '$currentDate'";
     $result = mysqli_query($conn, $query);
     if($row = mysqli_fetch_assoc($result)){
       $binaryToken = hex2bin($validator);
@@ -27,7 +27,7 @@ if(isset($_POST['resetPassword'])){
           $tokenEmail = $row['email'];
           // updated
           $hashPwd = password_hash($pass, PASSWORD_DEFAULT);
-          $updateQuery = "UPDATE user SET `password` = $hashPwd WHERE `email`=$tokenEmail";
+          $updateQuery = "UPDATE user SET `password` = '$hashPwd' WHERE `email`='$tokenEmail'";
             $execute = mysqli_query($conn, $updateQuery);
             // redirect
             if($execute){
@@ -57,6 +57,6 @@ if(isset($_POST['resetPassword'])){
   }
 
 }else{
-  header("Location: index.php")
+  header("Location: index.php");
 }
  ?>

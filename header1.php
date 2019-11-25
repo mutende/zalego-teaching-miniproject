@@ -59,10 +59,6 @@
     .example-modal .modal {
       background: transparent !important;
     }
-
-    #map {
-        height: 70vh;
-      }
   </style>
 <body class="hold-transition skin-red-light sidebar-mini fixed">
 <!-- Site wrapper -->
@@ -101,9 +97,8 @@
                 <img src="dist/img/face-0.jpg" class="img-circle" alt="User Image">
 
                 <p>
-
+                    <?php echo $_SESSION['user_name']; ?>
                   <!-- <small>Member since {time}</small> -->
-                  <a class="btn btn-sm btn-primary" href="profile.php?id=<?php echo $_SESSION['user_name'];?>"><?php echo $_SESSION['user_name']; ?></a>
                 </p>
               </li>
 
@@ -147,7 +142,6 @@
         <li class="divider"></li>
         <li><a href="campuses.php"><span class="glyphicon glyphicon-open-file"></span> <span>Campuses</span></a></li>
         <li class="divider"></li>
-        <li><a href="navigate.php"><span class="glyphicon glyphicon-map-marker"></span> <span>Take Me to Zalego</span></a></li>
         <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> <span>Logout</span></a></li>
       </ul>
     </section>

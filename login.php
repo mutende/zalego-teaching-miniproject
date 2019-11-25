@@ -69,7 +69,7 @@ else { // User exists
     <p class="login-box-msg">Sign in</p>
     <?php
     if( $_SESSION['message'] != null){
-       echo $_SESSION['message'];
+       echo '<span class="mb-2 text-danger"> '.$_SESSION['message'].'</span>';
        $_SESSION['message'] = null;
     }
     ?>
