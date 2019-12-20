@@ -71,7 +71,7 @@ if(isset($_POST['sendLink'])){
       $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
       $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
       $mail->Username   = 'elvismutendemakale@gmail.com';                     // SMTP username
-      $mail->Password   = 'G@emmi$95';                               // SMTP password
+      $mail->Password   = '************';                               // SMTP password
       $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
       $mail->Port       = 587;                                    // TCP port to connect to
 
